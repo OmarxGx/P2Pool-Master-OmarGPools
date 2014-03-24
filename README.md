@@ -1,21 +1,10 @@
-Modified p2pool-13.4+ to run with Digitalcoin, Worldcoin, Craftcoin, Casinocoin, Anoncoin and Globalcoin.
-
-Donations
+Modified p2pool-13.4+ to run with New Alt Coin Releases
 -------------------------
-Bitcoin		1DJPxjc4uDeaPdRpEofNyymbudV8WdozVR
 
-Litecoin	LYhTMBGKuDksxPAFUvNXXkGkWQVmaK75oD
-
-Digitalcoin	D5tWKx7njiFj8Ejr3h4ii8LRdxHJBKSZF9
-
-Worldcoin	WbmHBuaAYhDn8zY9JaxRqNoWMtQjEM6Dfb
-
-Craftcoin	QBFBJs6KBX2GZogVdti6Ui6Zyx81gYPuVE
-
-Casinocoin      CHnpgED6idR9zhevDCGs54dC3zD6o4wGT8
+Bitcoin	1L4BQGWNvHuprBn4ogyAggLVbcLKJTe8Xj	  
 
 
-Original P2Pool README:
+ P2Pool README:
 -------------------------
 
 Requirements:
