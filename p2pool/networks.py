@@ -679,6 +679,25 @@ nets = dict(
         ANNOUNCE_CHANNEL='#p2pool-blitz',
         VERSION_CHECK=lambda v: True,
     ),
+            isracoin=math.Object(
+        PARENT=networks.nets['isracoin'],
+        SHARE_PERIOD=10, # seconds
+        CHAIN_LENGTH=3*60*60//10, # shares
+        REAL_CHAIN_LENGTH=3*60*60//10, # shares
+        TARGET_LOOKBEHIND=20, # shares
+        SPREAD=15, # blocks
+        IDENTIFIER='77EC4F454020CD36'.decode('hex'),
+        PREFIX='437E661698AF4FFA'.decode('hex'),
+        P2P_PORT=1947,
+        MIN_TARGET=0,
+        MAX_TARGET=2**256//2**20 - 1,
+        PERSIST=True,
+        WORKER_PORT=1948,
+        BOOTSTRAP_ADDRS='omargpools.ca'.split(' '),
+        ANNOUNCE_CHANNEL='#p2pool-isr',
+        VERSION_CHECK=lambda v: True,
+    ),
+    
 )
 for net_name, net in nets.iteritems():
     net.NAME = net_name
